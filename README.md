@@ -13,7 +13,7 @@
 - Member 2: [megha suresh] - [snm imt]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://eravanikrishnacu-hub.github.io/decision-spinner/]
 
 ### Project Description
 [our projrct is called decision spinner .it is a simple web application that helps users make quick and fair decision when thry have multiple options]
