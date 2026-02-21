@@ -1,0 +1,27 @@
+/* Beginner-friendly styles for Decision Spinner */
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial; background: #f7f8fb; color: #222; }
+.container { max-width: 920px; margin: 24px auto; padding: 18px; background: #fff; border-radius: 12px; box-shadow: 0 6px 18px rgba(16,24,40,0.08); }
+h1 { margin: 0 0 6px 0; font-size: 1.6rem; }
+.intro { margin: 0 0 12px 0; color: #555; }
+.input-row { display:flex; gap:8px; margin-bottom:12px; }
+input#option-input { flex:1; padding:10px 12px; border-radius:8px; border:1px solid #e1e5ee; font-size:1rem; }
+button { padding:10px 14px; border-radius:8px; border: none; background: #2b6ef6; color: white; cursor:pointer; font-weight:600; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+button#reset-btn { background: #e64b4b; }
+.options-list { list-style:none; padding:0; margin:0 0 14px 0; display:flex; flex-wrap:wrap; gap:8px; }
+.options-list li { background:#f1f5ff; padding:6px 10px; border-radius:999px; font-size:0.95rem; }
+.wheel-area { display:flex; justify-content:center; align-items:center; position:relative; margin: 8px 0 18px 0; }
+.wheel-area canvas { width: 100%; max-width: 420px; height: auto; border-radius:50%; display:block; }
+.indicator { position:absolute; top:-18px; left:50%; transform:translateX(-50%); font-size:20px; color:#ff4d4d; text-shadow:0 1px 0 #fff; }
+.actions { display:flex; justify-content:center; margin-bottom:12px; }
+.spin { background: linear-gradient(180deg,#ffb703,#ff7b00); color: #111; font-size:1.1rem; padding:12px 24px; border-radius:10px; }
+.result { text-align:center; min-height:48px; font-size:1.15rem; font-weight:600; color:#153243; margin-bottom:8px; }
+.note { color:#7a8494; font-size:0.9rem; margin-top:12px; }
+
+/* Responsive: make layout fit small screens */
+@media (max-width: 520px) {
+  .container { margin:12px; padding:12px; }
+  input#option-input { font-size:0.95rem; }
+  .spin { width:100%; }
+}
