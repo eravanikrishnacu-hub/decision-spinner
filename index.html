@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision Spinner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Simple, beginner-friendly Decision Spinner app -->
+  <div class="container">
+    <h1>Decision Spinner</h1>
+    <p class="intro">Enter options, add them to the list, then click <strong>SPIN</strong>!</p>
+
+    <!-- Input area: type an option and click Add -->
+    <div class="input-row">
+      <input id="option-input" type="text" placeholder="Add an option (e.g. Pizza)" />
+      <button id="add-btn">Add</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+
+    <!-- Shows the list of added options -->
+    <ul id="options-list" class="options-list" aria-live="polite"></ul>
+
+    <!-- Wheel area: an indicator at top and a canvas that draws the wheel -->
+    <div class="wheel-area">
+      <div class="indicator">▼</div>
+      <canvas id="wheel-canvas"></canvas>
+    </div>
+
+    <!-- Spin button -->
+    <div class="actions">
+      <button id="spin-btn" class="spin">SPIN</button>
+    </div>
+
+    <!-- Result shown after spinning -->
+    <div id="result" class="result" aria-live="polite"></div>
+
+    <p class="note">No external libraries — pure HTML, CSS, and JavaScript.</p>
+  </div>
+
+  <!-- App logic -->
+  <script src="script.js"></script>
+</body>
+</html>
