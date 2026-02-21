@@ -2,28 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [decision spinner] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [innovate her]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [avani krishna c u] - [snm imt ]
+- Member 2: [megha suresh] - [snm imt]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[our projrct is called decision spinner .it is a simple web application that helps users make quick and fair decision when thry have multiple options]
 
 ### The Problem statement
-[What problem are you solving?]
+[many people struggle to choose between options this often leads to confusion]
 
 ### The Solution
-[How are you solving it?]
-
+[ our solution is a colorful spining wheel .users can enter different options ,and when they chick the spin button ,wheel rotates and randomly selects one option]
 ---
 
 ## Technical Details
@@ -31,25 +30,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [e.g., JavaScript,html,css]
+- Frameworks used: [nonr]
+- Libraries used: [none]
+- Tools used: [vs code ,git,github]
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: [laptop]
+- Specifications: [inernet connection]
+- Tools required: [web browser]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [add multiple custom options]
+- Feature 2: [display options in a colourful spinning wheel]
+- Feature 3: [smooth spinning animation]
+- Feature 4: [random fair selection]
 
 ---
 
@@ -59,12 +58,12 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[no installation required.simply download or clone repository]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[open index.html in any web browser]
 ```
 
 ### For Hardware:
@@ -77,14 +76,7 @@ List the key features of your project:
 
 ---
 
-## Project Documentation
 
-### For Software:
-
-#### Screenshots (Add at least 3)
-
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
